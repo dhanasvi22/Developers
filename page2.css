@@ -38,7 +38,7 @@ body{
 }
 
 .logo h2 {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 /* Profile */
@@ -51,11 +51,10 @@ body{
     width: 65px;
     height: 65px;
     border-radius: 50%;
-    border: 2px solid #3b82f6;
+    border: 2px solid black;
 }
 
 .profile h3 {
-    margin: 10px 0 5px;
     color: white;
 }
 
@@ -74,10 +73,10 @@ body{
     text-decoration: none;
     color: white;
     border-radius: 8px;
-    transition: 0.3s;
+    
 }
 
-/* Hover effect */
+/* Hover  */
 .menu a:hover {
     background: #1e40af;
 }
@@ -98,8 +97,8 @@ body{
 }
 .summary{
     color: rgb(146 173 201);
-    font-size: 1rem;
-    line-height: 1.5rem;
+    font: size 16px;;
+    line-height: 24px;
     margin: 10px;
     font-weight: 400;
     margin-top: 1px;
@@ -123,9 +122,6 @@ img :hover{
     cursor: pointer;
     box-shadow: 20px 20px 30px black;
 }
-.details{
-    /* margin-right: 200px; */
-}
 .details p{
     color:white;
     margin-top: 10px;
@@ -142,9 +138,7 @@ img :hover{
     margin-left: 20px;
     display: flex;
 }
-.p1 p{
-    font-weight: 400px;
-}
+
 .acept button{
     margin-left: 300px;
     background-color:green;
@@ -165,7 +159,6 @@ img :hover{
 
 }
 .decline :hover{
-    box-shadow: 20 20 20 black;
     cursor: pointer;
 }
 .acept :hover{
@@ -181,7 +174,7 @@ img :hover{
 .container{
     width: 100%;
     max-width: 1000px;
-    margin: auto;
+    
 }
 
 .heading{
