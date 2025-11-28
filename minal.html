@@ -89,3 +89,25 @@
                 </div>
             </div>
         </div>
+ <div class="panel book">
+            <h3>Book a new trip</h3>
+            <div class="row">
+                <select id="tripType">
+                    <option>Flights</option>
+                    <option>Riders</option>
+                    <option>Bus / Train</option>
+                </select>
+                <select id="tripClass" style="width:120px">
+                    <option>Economy</option>
+                    <option>Business</option>
+                </select>
+            </div>
+            <div class="row">
+                <input id="fromInput" placeholder="From (city or station)" />
+                <input id="toInput" placeholder="To (city or station)" />
+            </div>
+            <div class="row">
+                <input id="dateInput" type="date" style="max-width:220px"/>
+                <button class="search-btn" id="searchBtn">Search</button>
+            </div>
+        </div>
