@@ -41,3 +41,18 @@ body{
   align-items: center;
   justify-content: center;
 }
+.nav-search{
+  flex:1;
+  margin: 0 20px;
+  max-width: 500px;
+  position:relative
+}
+.nav-serch input{
+  width:100%;
+  padding: 10px 15px 10px 40px;
+  border-radius: 20px;
+  border:1px solid rgba(255,255,255,0.8);
+  background: rgba(255,255,255,0.05);
+  color:inherit;
+  font-size: 14px;
+}
