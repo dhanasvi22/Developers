@@ -128,7 +128,7 @@ img{
 }
 img :hover{
     cursor: pointer;
-    box-shadow: 20px 20px 30px black;
+    box-shadow: 20px 20px 30px #1d2635;
 }
 .details p{
     color:white;
