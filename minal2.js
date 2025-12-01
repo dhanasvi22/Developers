@@ -17,9 +17,3 @@ function handleSend() {
 function handleRequest() {
     console.log();
 }
-// console.log();
-// handleDeposit();
-// handleWithdraw();
-// console.log();
-// handleSearch();
-// handleSend();

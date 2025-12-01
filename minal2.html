@@ -5,8 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Wallet Dashboard</title>
     <link rel="stylesheet" href="minal2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+    <button id="menu-btn" class="menu-btn">
+        <i class="fa-solid fa-bars"></i>
+    </button>
+<div class="sidebar">
+<div class="frist">
+ <img src="./img/cras.png" class="img" alt="">
+<h3 class="logo">Platform</h3>
+        </div>
+<div class="menu">
+        <div class="menu-item active"><i class="fa-solid fa-table-cells-large"></i> Dashboard</div>
+        <div class="menu-item"><i class="fa-solid fa-users"></i> Users</div>
+        <div class="menu-item"><i class="fa-solid fa-id-card"></i> Drivers</div>
+        <div class="menu-item"><i class="fa-solid fa-ticket"></i> Bookings</div>
+        <div class="menu-item"><i class="fa-solid fa-bus"></i> Vehicles</div>
+        <div class="menu-item"><i class="fa-solid fa-chart-line"></i> Reports</div>
+    </div>
+
+    <div class="settings">
+    <i class="fa-solid fa-gear"></i> Settings
+</div>
+    <div class="bottom-user">
+    <img src="./img/icons8-admin-94.png" alt="">
+    <div>
+    <h4>Admin Name</h4>
+        <p>Super Admin</p>
+      </div>
+        </div>
+    </div>
     <div class="container">
         <div class="panel latest">
             <h3>Latest transactions</h3>
@@ -145,32 +175,7 @@
             </div>
         </div>
     </div>
-    <script>
-        function handledeposit(){
-            console.log();
-        }
-        function handleWithdraw(){
-            console.log();
-        }
-        function handleSearch(from, to, date, type, tripClass){
-            if(!from || !to || !date){
-                console.log("Please fill all fields");
-                return;
-            }
-            console.log();
-        }
-        function handleSend() {
-    console.log();
-}
-function handleRequest() {
-    console.log();
-}
-console.log();
-handleDeposit();
-handleWithdraw();
-console.log();
-handleSearch();
-handleSend();
-    </script>
+    <script src="./minal.js"></script>
+    <script src="./minal.js"></script>
 </body>
 </html>
