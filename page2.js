@@ -5,3 +5,5 @@ function Aceptt() {
 function Decline() {
     alert("You have declined the ride request.");
 }
+
+
