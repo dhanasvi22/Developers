@@ -30,7 +30,7 @@ body {
     background: #0f172a;
     position: fixed;
     top: 0;
-    left: -300px; /* Hidden */
+    left: -300px; 
     padding: 20px;
     transition: 0.3s ease;
 }
@@ -40,7 +40,7 @@ body {
     left: 0;
 }
 
-/* Logo Section */
+ /* Logo Section */
 .frist {
     display: flex;
     align-items: center;
@@ -55,7 +55,7 @@ body {
 .logo {
     font-size: 22px;
     font-weight: bold;
-}
+} 
 
 /* Menu Items */
 .menu-item {
@@ -171,6 +171,7 @@ body {
     color: white;
     border-radius: 8px;
     font-size: small;
+    color: white;
 
 }
 
@@ -407,4 +408,8 @@ td {
         margin-left: 0;
     }
 }
+
+ 
+
+
 
